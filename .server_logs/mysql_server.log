@@ -1,0 +1,16 @@
+Starting MySQL setup...
+MySQL is already running!
+
+Database: myapp
+Root user: root (password: dbuser123)
+App user: appuser (password: dbuser123)
+Port: 5000
+
+To connect to the database, use:
+mysql -u appuser -pdbuser123 -h localhost -P 5000 myapp
+
+Script stopped - MySQL server already running.
+
+> simple-db-viewer@1.0.0 start
+> node server.js --host 0.0.0.0
+
